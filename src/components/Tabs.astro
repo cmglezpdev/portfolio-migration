@@ -1,17 +1,4 @@
 ---
-import { GrMysql } from 'react-icons/gr';
-import { 
-    SiTypescript, SiNestjs, 
-    SiExpress, SiMaterialui, 
-    SiFirebase, SiPython, 
-    SiCsharp, SiCplusplus,
-    SiHtml5, SiReact,
-    SiNodedotjs, SiNextdotjs,
-    SiJavascript, SiSass, SiCss3,
-    SiGraphql, SiDocker, SiPostgresql,
-    SiDjango, SiDotnet, SiRust
-} from 'react-icons/si'
-
 import SkillIcon from "./SkillIcon.astro";
 import Title from "./Title.astro";
 ---
@@ -27,34 +14,35 @@ import Title from "./Title.astro";
 
     <div class="container bg-gray-dark p-4">
         <div class="transition-all duration-500 flex flex-wrap gap-10 justify-center">
-            <SkillIcon name="HTML"><SiHtml5 className="text-icon text-gray-light" /></SkillIcon>
-            <SkillIcon name="CSS"><SiCss3 className="text-icon text-gray-light" /></SkillIcon>
-            <SkillIcon name="Javascript"><SiJavascript className="text-icon text-gray-light" /></SkillIcon>
-            <SkillIcon name="Typescript"><SiTypescript className="text-icon text-gray-light" /></SkillIcon>
-            <SkillIcon name="React"><SiReact className="text-icon text-gray-light" /></SkillIcon>
-            <SkillIcon name="Next.js"><SiNextdotjs className="text-icon text-gray-light" /></SkillIcon>
-            <!-- <SkillIcon name="Astro"><AiFillHtml5 className="text-icon text-gray-light" /></SkillIcon> -->
-            <SkillIcon name="Nestjs"><SiNestjs className="text-icon text-gray-light" /></SkillIcon>
-            <SkillIcon name="Node.js"><SiNodedotjs className="text-icon text-gray-light" /></SkillIcon>
-            <SkillIcon name="express"><SiExpress className="text-icon text-gray-light" /></SkillIcon>
-            <SkillIcon name="Sass"><SiSass className="text-icon text-gray-light" /></SkillIcon>
-            <SkillIcon name="Material UI"><SiMaterialui className="text-icon text-gray-light" /></SkillIcon>
-            <SkillIcon name="Firebase"><SiFirebase className="text-icon text-gray-light" /></SkillIcon>
-            <SkillIcon name="Python"><SiPython className="text-icon text-gray-light" /></SkillIcon>
-            <SkillIcon name="C#"><SiCsharp className="text-icon text-gray-light" /></SkillIcon>
-            <SkillIcon name="C++"><SiCplusplus className="text-icon text-gray-light" /></SkillIcon>
+            <SkillIcon img="/assets/icons/html.svg" name="HTML" />
+            <SkillIcon img="/assets/icons/css.svg" name="CSS" />
+            <SkillIcon img="/assets/icons/javascript.svg" name="Javascript" />
+            <SkillIcon img="/assets/icons/typescript.svg" name="Typescript" />
+            <SkillIcon img="/assets/icons/react.svg" name="React" />
+            <SkillIcon img="/assets/icons/nextjs.svg" name="Next.js" />
+            <SkillIcon img="/assets/icons/sass.svg" name="SASS" />
+            <SkillIcon img="/assets/icons/material-ui.svg" name="Material UI" />
+            <SkillIcon img="/assets/icons/astro.svg" name="Astro" />
+            <SkillIcon img="/assets/icons/firebase.svg" name="Firebase" />
+            <SkillIcon img="/assets/icons/nodejs.svg" name="Node.js" />
+            <SkillIcon img="/assets/icons/express.svg" name="express" />
+            <SkillIcon img="/assets/icons/nestjs.svg" name="Nest.js" />
+            <SkillIcon img="/assets/icons/mongodb.svg" name="Mongo DB" />
+            <SkillIcon img="/assets/icons/python.svg" name="Python" />
+            <SkillIcon img="/assets/icons/csharp.svg" name="C#" />
+            <SkillIcon img="/assets/icons/cplusplus.svg" name="C++" />
         </div>
         <div class="hidden transition-all duration-500 flex-wrap gap-10 justify-center">
-            <SkillIcon name="GraphQL"><SiGraphql className="text-icon text-gray-light" /></SkillIcon>
-            <SkillIcon name="Docker"><SiDocker className="text-icon text-gray-light" /></SkillIcon>
-            <SkillIcon name="Postgres"><SiPostgresql className="text-icon text-gray-light" /></SkillIcon>
+            <SkillIcon img="/assets/icons/graphql.svg" name="GraphQL" />
+            <SkillIcon img="/assets/icons/docker.svg" name="Docker" />
+            <SkillIcon img="/assets/icons/postgresql.svg" name="Postgres" />
         </div>
         <div class="hidden transition-all duration-500 flex-wrap gap-10 justify-center">
-            <SkillIcon name="Django"><SiDjango className="text-icon text-gray-light" /></SkillIcon>
-            <SkillIcon name="React Native"><SiReact className="text-icon text-gray-light" /></SkillIcon>
-            <SkillIcon name="MySQL"><GrMysql className="text-icon text-gray-light" /></SkillIcon>
-            <SkillIcon name=".Net"><SiDotnet className="text-icon text-gray-light" /></SkillIcon>
-            <SkillIcon name="Rust"><SiRust className="text-icon text-gray-light" /></SkillIcon>
+            <SkillIcon img="/assets/icons/django.svg" name="Django" />
+            <SkillIcon img="/assets/icons/react.svg" name="React" />
+            <SkillIcon img="/assets/icons/mysql.svg" name="MySQL" />
+            <SkillIcon img="/assets/icons/dotnet.svg" name="ASP.Net" />
+            <SkillIcon img="/assets/icons/rust.svg" name="Rust" />
         </div>
     </div>
 
