@@ -26,6 +26,9 @@ module.exports = {
         title: ["Rubik", "sans-serif"],
         text: ["Roboto", "sans-serif"]        
       },
+      fontSize: {
+        "icon": "70px",
+      }
     },
   },
   plugins: [],
