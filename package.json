@@ -12,6 +12,8 @@
   "dependencies": {
     "@astrojs/react": "^2.0.1",
     "@astrojs/tailwind": "^3.0.0",
+    "@fontsource/roboto": "^4.5.8",
+    "@fontsource/rubik": "^4.5.14",
     "@types/react": "^18.0.21",
     "@types/react-dom": "^18.0.6",
     "astro": "^1.9.0",
