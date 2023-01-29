@@ -1,0 +1,43 @@
+---
+// import ReactTypingEffect from 'react-typing-effect'
+import BtnWork from './Buttons/BtnWork.astro';
+---
+
+
+<header class="mt-16 flex flex-col items-center">
+    <h1 class="text-4xl font-title font-black text-gray-superlight">
+        <span class="text-teal-600">{"<br>"}</span>
+            {"Hello"}
+        <span class="text-teal-600">{"</br>"}</span>
+    </h1>
+    <h2 class="text-teal-500 text-4xl font-title font-black">I'm Carlos Manuel</h2>
+<!--     
+    <h2 class=''>
+        <ReactTypingEffect
+            client:load
+            typingDelay={200}
+            speed={30}
+            eraseSpeed={30}
+            eraseDelay={1500}
+            text={[
+            "Frontend Developer",
+            "Backend Developer",
+            "Competitive Programming",
+            "Computer Science",
+            ]}
+        />
+    </h2> -->
+
+    <p class='text-gray-light font-semibold text-lg mt-4'>
+        I'm passionate of Software Development and Machine Learning.
+    </p>
+    
+    <div class="mt-5 flex gap-8">
+        <a href="#works">
+            <BtnWork name="My Work" />
+        </a>       
+        <a href="#works">
+            <BtnWork name="CV" />
+        </a>
+    </div>
+</header>
